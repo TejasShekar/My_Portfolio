@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+nav{
+    background-color: #156ccf;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-bottom: 0.25rem;
+}
+.nav-div{
+    padding: 1rem;
+}
+.nav-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.no-bullets{
+    list-style: none;
+    padding: 0rem 0.7rem;
+    padding-inline-start: 0px;
+}
+.nav-pills{
+    text-align: right;
+}
+.li-inline{
+    display: inline;
+    padding: 0rem 0.75rem;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.highlight{
+    color: #156ccf;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+.hero-img{
+    max-width: 350px;
+    padding: 2rem 2rem 0rem 0rem;
+    display: block;
+    margin: auto;
+}
+section{   
+    padding: 1rem;
+    margin: auto;
+    text-align: justify;
+    border: 1px #156ccf;
+}
+span{
+    color: #156ccf;
+    font-weight: bolder;
+}
+.link-primary{
+    font-weight: bold;
+    background-color: #156ccf;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem ;
+}
+.link-secondary{
+    font-weight: bold;
+    border: 2px solid #156ccf;
+    color: #156ccf;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem ;
+}
+footer{
+    background-color: #156ccf;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: .7rem 0rem .2rem 0rem;
+}
+.f-header{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.contact{
+    text-align: center;
+    padding: 0rem;
+}
+.contact-image{
+    max-width: 25px;
+    display: center;
+    padding: 0rem 1.5rem;
+}
+.link-readmore{
+    text-decoration: none;
+    color: #156ccf;
+}
