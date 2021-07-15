@@ -5,6 +5,9 @@ body{
     margin: 0rem;
     padding: 0rem;
 }
+h2, p {
+    margin: 1rem;
+}
 nav{
     background-color: #156ccf;
     border-bottom-left-radius: 1rem;
@@ -45,7 +48,7 @@ nav{
     padding: 0.3rem;
 }
 .hero-img{
-    max-width: 350px;
+    max-width: 500px;
     padding: 2rem 2rem 0rem 0rem;
     display: block;
     margin: auto;
@@ -65,6 +68,7 @@ span{
     background-color: #156ccf;
     padding: 0.3rem 0.5rem;
     border-radius: 1rem ;
+    margin: 0rem 0rem 0rem 1rem;
 }
 .link-secondary{
     font-weight: bold;
@@ -72,6 +76,7 @@ span{
     color: #156ccf;
     padding: 0.2rem 0.5rem;
     border-radius: 1rem ;
+    margin: 0rem 0rem 0rem 1rem;
 }
 footer{
     background-color: #156ccf;
@@ -97,4 +102,11 @@ footer{
 .link-readmore{
     text-decoration: none;
     color: #156ccf;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+    .hero-img{
+        max-width: 350px;
+    }
 }
