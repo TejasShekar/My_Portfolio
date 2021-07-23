@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #156ccf;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0rem;
     padding: 0rem;
 }
-h2, p {
+h1, h2, p {
     margin: 1rem;
 }
+h2 {
+    font-size: 1.6rem;
+}
 nav{
-    background-color: #156ccf;
+    background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding-bottom: 0.25rem;
@@ -41,7 +47,7 @@ nav{
     text-decoration: none;
 }
 .highlight{
-    color: #156ccf;
+    color: var(--primary-color);
     font-weight: bold;
     background-color: white;
     border-radius: 1rem;
@@ -57,32 +63,33 @@ section{
     padding: 1rem;
     margin: auto;
     text-align: justify;
-    border: 1px #156ccf;
+    border: 1px var(--primary-color);
 }
 span{
-    color: #156ccf;
+    color: var(--primary-color);
     font-weight: bolder;
 }
 .link-primary{
     font-weight: bold;
-    background-color: #156ccf;
+    background-color: var(--primary-color);
     padding: 0.3rem 0.5rem;
     border-radius: 1rem ;
     margin: 0rem 0rem 0rem 1rem;
 }
 .link-secondary{
     font-weight: bold;
-    border: 2px solid #156ccf;
-    color: #156ccf;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
     padding: 0.2rem 0.5rem;
     border-radius: 1rem ;
     margin: 0rem 0rem 0rem 1rem;
 }
 footer{
-    background-color: #156ccf;
+    background-color: var(--primary-color);
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     padding: .7rem 0rem .2rem 0rem;
+    margin-top: 1rem;
 }
 .f-header{
     text-align: center;
@@ -101,7 +108,7 @@ footer{
 }
 .link-readmore{
     text-decoration: none;
-    color: #156ccf;
+    color: var(--primary-color);
 }
 
 /* Media Queries */
