@@ -1,53 +1,41 @@
-/*----------- Navigation Styling -----------*/
 .header {
   padding: 2rem 1rem;
   border-bottom: 1px solid var(--border);
 }
-
 .nav-list {
   padding: 0 0 0 2rem;
   color: var(--off-white);
 }
-
 .nav-logo {
   flex: 1;
   padding-left: 0;
 }
-
-.logo-link {
-  font-size: 1.2rem;
-  color: var(--white);
+.logo {
+  height: 3rem;
 }
-
 .nav-links {
-  font-size: 1.1rem;
-  color: var(--primary);
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.nav-links.active {
+  border-radius: 100px;
+  background-color: var(--ternary);
   color: var(--white);
 }
-
 .social-header-icons {
   color: var(--primary);
   font-size: 1.5rem;
   margin: 2rem 1rem 0 0;
 }
-
-.active {
-  background-color: var(--ternary);
-  padding: 0.6rem 1rem;
-  width: auto;
-  border-radius: 100px;
-  color: var(--white);
-}
-
-/*----------- Hero Section Styling -----------*/
-
 .heroImageSection {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
 .hero-img {
   border-radius: 100%;
   margin: 0 auto;
@@ -56,7 +44,6 @@
   width: 16rem;
   padding: 1rem;
 }
-
 .intro-column {
   display: flex;
   justify-content: center;
@@ -64,40 +51,32 @@
   flex-flow: column wrap;
   width: 100%;
 }
-
 .greetings {
   color: var(--secondary);
   margin: 2rem 0 0 0;
   font-size: 1.1rem;
 }
-
 .title {
   font-size: 4rem;
   margin: 0 0 1rem 0;
   color: var(--white);
   text-align: center;
 }
-
 .subtitle {
   line-height: 1.5;
   font-size: 2rem;
   text-align: center;
   color: var(--secondary);
 }
-
-/*----------- About Me Section Styling -----------*/
 .about-section {
   background-color: var(--slate-gray);
 }
-
 .column-image {
   border-radius: 5px;
 }
-
 .about-me-right-column {
   padding: 0 0 0 0.8rem;
 }
-
 .about-me-description {
   font-size: 1.4rem;
   line-height: 1.5;
@@ -105,16 +84,13 @@
   color: var(--off-white);
   margin-bottom: 2rem;
 }
-
 .skills-header {
   font-size: 1.8rem;
   color: var(--white);
 }
-
 .skills-collection {
   margin: 1.8rem 0 0 0;
 }
-
 .skills-list {
   display: inline-block;
   background-color: var(--ternary);
@@ -125,8 +101,6 @@
   text-align: center;
   margin: 0 0.4rem 1rem 0;
 }
-
-/*----------- Project Section Styling -----------*/
 .quote {
   color: var(--off-white);
   border-left: 2px solid var(--accent-color);
@@ -134,28 +108,23 @@
   font-size: 1.1rem;
   background-color: var(--dark);
 }
-
 .project-column {
   border-radius: 0.3rem;
   height: 100%;
 }
-
 .column-placeholder {
   background-color: var(--border);
   height: 100%;
 }
-
 .column-placeholder-image {
   width: 6rem;
   height: 6rem;
 }
-
 .project-title {
   font-size: 1.4rem;
   color: var(--white);
   padding: 0 0 0.4rem 0;
 }
-
 .project-description {
   font-size: 1rem;
   line-height: 1.5;
@@ -163,84 +132,58 @@
   color: var(--off-white);
   margin: 0;
 }
-
 .project-details-column {
   padding-left: 0.6rem;
 }
-
 #action-column {
   margin-top: 1rem;
 }
-
-/*----- Blog Page Styling ---*/
 .blogs-section {
   background-color: var(--slate-gray);
 }
-
-.blog-description {
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-  color: var(--white);
-  line-height: 1.4;
-}
-
-.blog-date {
-  color: var(--white);
-}
-
-/*----------- Page Footer Section Styling -----------*/
 .footer {
   padding: 4rem 0;
-  background-color: #000000;
+  background-color: #000;
 }
-
 .footer-text {
   font-size: 1.8rem;
   line-height: 2;
   color: var(--off-white);
 }
-
 .social-icons {
   font-size: 1.4rem;
   padding: 0.8rem 0.6rem 0 0.6rem;
   color: var(--off-white);
   opacity: 0.6;
 }
-
 .social-icons:hover {
   opacity: 1;
 }
-
-/*Media Query For Responsive Website*/
-
-/*For Mobile Devices (Devices Width Less than equals to 550px which is (32.8rem or 33rem))*/
 @media screen and (max-width: 34.37rem) and (min-width: 0rem) {
   .header {
     padding: 1rem;
   }
-
   .nav-collection {
     flex-flow: column wrap;
   }
-
   .nav-list {
-    padding: 0.1rem 0 1rem 0rem;
+    padding: 0.1rem 0 1rem 0;
   }
-
   .title {
     font-size: 1.8rem;
   }
-
   .subtitle {
     font-size: 1.2rem;
   }
-
   .quote {
     font-size: 1rem;
     margin: 2rem 0;
   }
-
   .about-me-description {
     font-size: 1.2rem;
+  }
+
+  .tab-group {
+    width: 100%;
   }
 }
